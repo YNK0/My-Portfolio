@@ -1,38 +1,148 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+.nav-links {
+  display: inline-block;
+  list-style-type: none;
   text-align: center;
+  margin-right: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  text-align: right;
+  display:flex;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+li {
+  margin: 35px 50px;
+  display: inline-block;
+  text-decoration: none;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+a:visited {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
+.a-button {
+  color: #f0f0f0;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.a-button:hover {
+  color: #74fac0;
+}
+
+.btn{
+
+
+font-size: 1.7rem;
+color: #212121;
+background-color: #74fac0;
+padding: 10px 30px;
+border: 2px solid #74fac0;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 600ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 600ms;
+padding: 10px 45px;
+transform : translateY(-0px);
+border: solid 2px #74fac0;
+}
+
+.box-1 , 
+.box-2 , 
+.box-3 , 
+.box-4 {
+  background-color: #ffff89;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  z-index: -1;
+}
+
+.box-1 {
+  position:absolute;
+  background-color: #ff0000;
+  top: -100px;
+  right: 700px;
+  animation: trans  2s ease-in-out infinite;
+}
+
+.box-2 {
+  position:absolute;
+  background-color: #c03ec0;
+  top: -100px;
+  left: 700px;
+  animation: trans  1.5s ease-in-out infinite;
+}
+
+.box-3 {
+  position:absolute;
+  background-color: #0c9bd2;
+  top: -100px;
+  left: 300px;
+  animation: trans  3.5s ease-in-out infinite;
+}
+
+.box-4 {
+  position:absolute;
+  top: -100px;
+  right: 400px;
+  animation: trans  3s ease-in-out infinite;
+}
+
+@keyframes trans  {
   from {
-    transform: rotate(0deg);
+    transform: translateY(0);
+    opacity: 40%;
   }
   to {
-    transform: rotate(360deg);
+    transform: translateY(100vh);
+    opacity: 2%;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.icon-img {
+  width: 70px;
+  margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .box-1 , 
+  .box-2 , 
+  .box-3 , 
+  .box-4 {
+    animation: none;
   }
 }
