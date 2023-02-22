@@ -1,15 +1,14 @@
 import './App.css';
 import MainDiv from './componentes/main-div';
 import NavBar from './componentes/navBar';
-
-
+import { useState}  from 'react';
 
 
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <NavBar />
+      <div className="app-header">
+        <NavBar/>
       </div>
       <MainDiv/>
       <div className="box-1"></div>

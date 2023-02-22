@@ -1,0 +1,107 @@
+
+div {
+    color:  white;
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+
+.mainDiv {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    padding-top: 2rem;
+}
+
+.div1, .div2 {
+    width: 40%;
+    
+}
+
+.main-img {
+    position:absolute;
+    bottom:60px;
+    right: 150px;
+    height: 650px;
+    width: 650px;
+}
+
+.description {
+    width: 550px;
+    text-align: left;
+    margin: 0;
+}
+
+.div1 {
+    margin: 150px 0 0 90px;
+}
+
+
+.front-end-text {
+    color: #74fac0;
+}
+
+.subDiv * {
+    margin: 5px 0;
+}
+
+h3 {
+    font-weight: 0;
+    font-size: 1.4rem;
+    margin: 40px 0px;
+}
+
+.description {
+    margin: 60px 0;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.typeWriter * {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 16px;
+    }
+
+    .mainDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .div2 {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 50%;
+    }
+
+    .main-img {
+        max-height: 90%;
+        padding: 0 1rem;
+        display: block;
+        margin: 0 auto;
+        position: unset;
+    }
+
+    .description {
+        width:90%;
+        margin: 1rem;
+    }
+
+    .typeWriter * {
+        font-size: 1.9rem;
+    }
+
+    .subDiv {
+        width:90%;
+        margin: 1rem 1rem 3rem 1rem;
+    }
+}

@@ -145,4 +145,8 @@ border: solid 2px #74fac0;
   .box-4 {
     animation: none;
   }
+
+  .app-header {
+    padding-top: 1rem;
+  }
 }
