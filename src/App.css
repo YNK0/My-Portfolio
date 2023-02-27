@@ -7,6 +7,12 @@
 body {
   background-color: #212121;
   font-family: Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+.skills {
+  min-height: 60%;
+  padding-top: 200px;
 }
 
 .nav-links {
@@ -42,6 +48,15 @@ a:visited {
   color: #f0f0f0;
   font-size: 1.7rem;
   font-weight: 400;
+}
+
+.skills-text {
+  font-size: 1.7rem;
+  color: #f0f0f0;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 50px;
 }
 
 .a-button:hover {
@@ -115,6 +130,8 @@ border: solid 2px #74fac0;
   right: 400px;
   animation: trans  3s ease-in-out infinite;
 }
+
+
 
 @keyframes trans  {
   from {

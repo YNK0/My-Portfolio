@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect }  from 'react';
 import "../Estilos/navBar.css"
+import Boton from "./button.js"
 
 function NavBar () {
   //crear una funcion que actualice un estado cuando se cambie el tamaño de la pantalla 
@@ -38,6 +39,7 @@ function NavBar () {
           <li>
             <a href="#">Projects</a>
           </li>
+          <Boton > Contact </Boton>
         </ul>
       </nav>
     </header>

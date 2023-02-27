@@ -11,7 +11,7 @@ function MainDiv() {
           <h1 className="typeWriter">
             <Typewriter 
               options={{
-                strings: ["Hi ", "I'm Francisco Magaña."],
+                strings: ["Hi", "I'm Francisco Magaña"],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 30,
