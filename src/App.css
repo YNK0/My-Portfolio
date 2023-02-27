@@ -51,9 +51,9 @@ a:visited {
 }
 
 .skills-text {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #f0f0f0;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 auto;
   text-align: center;
   padding: 0 50px;
@@ -61,6 +61,21 @@ a:visited {
 
 .a-button:hover {
   color: #74fac0;
+}
+
+.text-about {
+  padding: 5rem 0;
+  display: flex;
+}
+
+.text-about h1 {
+  font-size: 3rem;
+  color: #f0f0f0;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 50px;
+  text-shadow: 0 0 40px #74fac0;
 }
 
 .btn{
@@ -166,4 +181,15 @@ border: solid 2px #74fac0;
   .app-header {
     padding-top: 1rem;
   }
+
+  .text-about {
+    flex-direction: column;
+    padding-top: 290px ;
+  }
+
+  .skills {
+    padding-top: 0;
+  }
+
+  
 }

@@ -19,6 +19,15 @@ function App() {
         <NavBar />
       </div>
       <MainDiv />
+      <div className="text-about" data-aos="fade-up" data-aos-duration="1000" >
+        <h1 className='about-me'>About me</h1>
+          <h2 className="description">
+            I love exploring new technologies and methodologies to improve my workflow 
+            and create high quality products. I am a collaborative team player and always 
+            willing to learn and share knowledge with others. I am always looking for new 
+            challenges to keep improving my skills and grow as a Front End developer.
+          </h2>  
+      </div>
       <div className="skills" data-aos="fade-up" data-aos-duration="2000">
         <div className='typeWriter skills-text'>
           <Typewriter

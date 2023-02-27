@@ -1,8 +1,9 @@
-import img1 from "../images/html-css.png"
-import img2 from "../images/js.svg"
-import img3 from "../images/responsive.svg"
-import img4 from "../images/ui.svg"
-import img5 from "../images/logo.svg"
-import img6 from "../images/debug.svg"
+import img1 from "../images/img-1.png";
+import img2 from "../images/img-2.png";
+import img3 from "../images/img-3.png";
+import img4 from "../images/img-4.png";
+import img5 from "../images/img-5.png";
+import img6 from "../images/img-6.png";
+import img7 from "../images/img-7.png";
 
-export default [img1, img2, img3, img4, img5, img6]
+export default [img1, img2, img3, img4, img5, img6, img7]

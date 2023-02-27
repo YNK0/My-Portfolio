@@ -39,6 +39,8 @@ ul{
 .menu a:hover{
     color: #74fac0;
     background-color: var(--grey);
+    text-shadow: 0 0 30px #74fac0;
+    transition: all .3s ease-in-out;
 }
 
 .nav{

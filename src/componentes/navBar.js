@@ -31,15 +31,14 @@ function NavBar () {
       <nav className="nav">
         <ul className="menu">
           <li>
-            <a href="#">About</a>
+            <a href="#mainDiv">About</a>
           </li>
           <li>
-            <a href="#">Skills</a>{" "}
+            <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#">Projects</a>
           </li>
-          <Boton > Contact </Boton>
         </ul>
       </nav>
     </header>
