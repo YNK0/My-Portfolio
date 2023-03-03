@@ -2,6 +2,7 @@ import "../Estilos/mainDiv.css";
 import mainImg from "../images/main-img.png";
 import Typewriter from "typewriter-effect";
 import Button from "./button";
+import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 
 function MainDiv() {
   return (
@@ -27,7 +28,9 @@ function MainDiv() {
           modern web technologies and design trends to build innovative digital
           solutions.
         </h2>
-        <Button>Contact Me </Button>
+        <div className="social">
+
+        </div>
       </div>
       <div className="div2">
         <img src={mainImg} className="main-img"></img>

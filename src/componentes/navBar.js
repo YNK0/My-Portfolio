@@ -39,6 +39,7 @@ function NavBar () {
           <li>
             <a href="#">Projects</a>
           </li>
+          <Boton > Contact </Boton>
         </ul>
       </nav>
     </header>
