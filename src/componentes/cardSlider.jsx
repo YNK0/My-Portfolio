@@ -2,6 +2,7 @@ import Card from "./card";
 import "../Estilos/cardStyle.css";
 import images from "./images";
 
+
 export default function CardSlider(props) {
     return (
         <div className="mainSlider" id="skills">

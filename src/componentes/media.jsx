@@ -1,5 +1,7 @@
 import '@fortawesome/fontawesome-free/css/all.css';
 import "../Estilos/media.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export default (props) => {

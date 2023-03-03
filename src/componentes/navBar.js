@@ -34,7 +34,7 @@ function NavBar () {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="https://github.com/YNK0" target={"_blank"}>Projects</a>
           </li>
           <Boton > Contact </Boton>
         </ul>
