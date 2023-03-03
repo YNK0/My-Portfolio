@@ -1,0 +1,28 @@
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.projects {
+    display: flex;
+    
+    justify-content: flex-start;
+    padding-right: 50%;
+}
+
+/*Centrar los hijos del div horizontalmente*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+
+
+@media screen and (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        padding-right: 0;
+    }
+}

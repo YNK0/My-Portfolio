@@ -2,7 +2,8 @@ import "../Estilos/mainDiv.css";
 import mainImg from "../images/main-img.png";
 import Typewriter from "typewriter-effect";
 import Button from "./button";
-import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+import media from "./media";
+import Media from "./media";
 
 function MainDiv() {
   return (
@@ -29,7 +30,7 @@ function MainDiv() {
           solutions.
         </h2>
         <div className="social">
-
+              <Media idx={true}/>
         </div>
       </div>
       <div className="div2">

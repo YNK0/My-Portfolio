@@ -1,11 +1,8 @@
-import React, { useState, useRef, useEffect }  from 'react';
+import React, { useState, useEffect }  from 'react';
 import "../Estilos/navBar.css"
 import Boton from "./button.js"
 
 function NavBar () {
-  //crear una funcion que actualice un estado cuando se cambie el tamaño de la pantalla 
-  // y que ese estado se use para mostrar o no el menu
-  
   const [hideMenu, setHideMenu] = useState(true);
 
   const updateWidth = () => {

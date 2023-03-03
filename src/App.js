@@ -6,6 +6,7 @@ import CardSlider from './componentes/cardSlider.jsx';
 import Typewriter from "typewriter-effect";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Media from './componentes/media';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
         <NavBar />
       </div>
       <MainDiv />
-      <div className="text-about" data-aos="fade-up" data-aos-duration="1000" >
+      <div className="text-about" data-aos="fade-right" data-aos-duration="1000" >
         <h1 className='about-me'>About me</h1>
           <h2 className="description">
             I love exploring new technologies and methodologies to improve my workflow 
@@ -28,7 +29,7 @@ function App() {
             challenges to keep improving my skills and grow as a Front End developer.
           </h2>  
       </div>
-      <div className="skills" data-aos="fade-up" data-aos-duration="2000">
+      <div className="skills" data-aos="fade-right" data-aos-duration="1000">
         <div className='typeWriter skills-text'>
           <Typewriter
             onInit={(typewriter) => {
@@ -40,6 +41,7 @@ function App() {
         </div>
         <CardSlider />
       </div>
+      <Media idx={false}/>
       <div className="box-1"></div>
       <div className="box-2"></div>
       <div className="box-3"></div>

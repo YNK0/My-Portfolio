@@ -97,11 +97,9 @@ cursor: pointer;
 }
 
 .btn:hover{
-
-transition : 600ms;
-padding: 10px 45px;
-transform : translateY(-0px);
-border: solid 2px #74fac0;
+  transition : 600ms;
+  transform: scale(1.1);
+  border: solid 2px #74fac0;
 }
 
 .box-1 , 
@@ -196,10 +194,6 @@ border: solid 2px #74fac0;
 
 ::-webkit-scrollbar {
   width: 15px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #888;
 }
 
 ::-webkit-scrollbar-thumb {
